@@ -418,6 +418,7 @@ const Registration = () => {
       console.log("Country:", values.country);
       console.log("Gender:", values.gender);
       console.log("Hobbies:", values.hobbies);
+      formik.resetForm();
     },
   });
 
